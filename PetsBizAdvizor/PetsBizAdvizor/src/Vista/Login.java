@@ -17,7 +17,6 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
-        
     }
 
     /**
@@ -46,7 +45,6 @@ public class Login extends javax.swing.JFrame {
         setMaximumSize(new java.awt.Dimension(800, 730));
         setMinimumSize(new java.awt.Dimension(800, 740));
         setPreferredSize(new java.awt.Dimension(800, 730));
-        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
@@ -123,7 +121,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 150, 340, 430));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/MicrosoftTeams-image.png"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 770, 700));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 700));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -164,8 +162,6 @@ public class Login extends javax.swing.JFrame {
             public void run() {
                 new Login().setVisible(true);
             }
-            
-            
         });
     }
 
