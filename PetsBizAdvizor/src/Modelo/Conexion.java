@@ -19,4 +19,9 @@ public class Conexion {
         return null;
     }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> dd7b18e36f370748a69bd9d770c9117439283a38
 }
