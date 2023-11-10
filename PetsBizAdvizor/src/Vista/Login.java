@@ -24,9 +24,8 @@ public class Login extends javax.swing.JFrame {
     public Login() {
         initComponents();
         this.setLocationRelativeTo(null);
-<<<<<<< HEAD
-        
-=======
+
+
         txtCorreo.setText("mateo.gonzalez.escudero@gmail.com");
         txtPass.setText("admin");
     }
@@ -45,7 +44,7 @@ public class Login extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(null, "Correo o la Contraseña incorrecta");
             }
         }
->>>>>>> dd7b18e36f370748a69bd9d770c9117439283a38
+
     }
 
     /**
@@ -156,7 +155,7 @@ public class Login extends javax.swing.JFrame {
         getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 150, 340, 430));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Img/MicrosoftTeams-image.png"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 0, 770, 700));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 700));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
