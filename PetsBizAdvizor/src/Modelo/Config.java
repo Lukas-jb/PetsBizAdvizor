@@ -1,30 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package Modelo;
 
-/**
- *
- * @author USUARIO
- */
-public class Cliente {
+public class Config {
     private int id;
-    private String cc;
+    private String nit;
     private String nombre;
     private String telefono;
     private String direccion;
-
-    public Cliente() {
+    private String mensaje;
+    
+    public Config(){
+        
     }
 
-    public Cliente(int id, String cc, String nombre, String telefono, String direccion) {
+    public Config(int id, String nit, String nombre, String telefono, String direccion, String mensaje) {
         this.id = id;
-        this.cc = cc;
+        this.nit = nit;
         this.nombre = nombre;
         this.telefono = telefono;
         this.direccion = direccion;
+        this.mensaje = mensaje;
     }
 
     public int getId() {
@@ -35,12 +30,12 @@ public class Cliente {
         this.id = id;
     }
 
-    public String getcc() {
-        return cc;
+    public String getnit() {
+        return nit;
     }
 
-    public void setcc(String cc) {
-        this.cc = cc;
+    public void setnit(String nit) {
+        this.nit = nit;
     }
 
     public String getNombre() {
@@ -67,4 +62,11 @@ public class Cliente {
         this.direccion = direccion;
     }
 
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
+    }
 }
